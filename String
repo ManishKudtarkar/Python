@@ -18,3 +18,14 @@ res = " ".join(ele.capitalize()for ele in string3.split())
 print(res)
 
 print(string3.title())
+boss= string3.find("m")
+print(boss)
+
+str3 = "people"
+for index,char in enumerate(str3):
+  print(index,char)
+  
+str5 ="my name is maddy"
+print([i for i,char in enumerate(str5) if char =='m'])
+
+
