@@ -28,4 +28,8 @@ for index,char in enumerate(str3):
 str5 ="my name is maddy"
 print([i for i,char in enumerate(str5) if char =='m'])
 
-
+#Wrapping
+import textwrap
+def wrap(string, max_width):
+    s1 = textwrap.fill(string, max_width)
+    return s1
